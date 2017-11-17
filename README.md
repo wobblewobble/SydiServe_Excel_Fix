@@ -1,5 +1,5 @@
 # SydiServe_Excel_Fix
-Fix for SydiServe Excel issue on Excel 2010 and higher
+Fix for SydiServe Excel issue on Excel 2013 and higher
 
 
 Sydi Server not working with Excel 2013 or Excel 2016
@@ -44,6 +44,4 @@ objExcel.Sheets(4).Name = "Processes"
 objExcel.Sheets.Add ,objExcel.Sheets(4) ' Add a new sheet after the last one
 objExcel.Sheets(5).Name = "OS Distribution Data"﻿
 
-Thanks to Patrick Ogenstad
-http://networklore.com/
-for the tools
+Thanks to Patrick Ogenstad  http://networklore.com/ for the tools
