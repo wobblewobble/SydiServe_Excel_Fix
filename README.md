@@ -45,3 +45,14 @@ objExcel.Sheets.Add ,objExcel.Sheets(4) ' Add a new sheet after the last one
 objExcel.Sheets(5).Name = "OS Distribution Data"﻿
 
 Thanks to Patrick Ogenstad  http://networklore.com/ for the tools
+
+Hash of my files
+MD5 hash of file sydi-overview.vbs:
+5f1d5ca7da8e83d5487d08e362ce4994
+SHA1 hash of file sydi-overview.vbs:
+9b94e94a59d711155ffc4ec49026198a9e95a4e5
+
+Command to check the hash
+CertUtil -hashfile sydi-overview.vbs MD5
+CertUtil -hashfile sydi-overview.vbs SHA1
+
