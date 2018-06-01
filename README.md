@@ -1,5 +1,6 @@
 # SydiServe_Excel_Fix
 Fix for SydiServe Excel issue on Excel 2013 and higher.
+
 Adding info on cscript.exe not running on Server 2012R2/ Server 2016 and Windows 10.
 Copy the cscript.exe file from %windir%\syswow64 to to folder that you have Sydi-Server saved to and run it now
 
